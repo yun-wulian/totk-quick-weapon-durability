@@ -90,7 +90,7 @@ extern "C" void exl_main(void*, void*) {
         exl::patch::CodePatcher patch(NameCall);
         patch.BranchLinkInst(reinterpret_cast<void*>(&quick_durability_bridge));
     }
-    Log("[QuickWeaponDurability] 1.2.1 initialized; melee shortcut caption enabled\n");
+    Log("[QuickWeaponDurability] 1.2.1 initialized; weapon, bow and shield captions enabled\n");
 }
 
 extern "C" NORETURN void exl_exception_entry() {
