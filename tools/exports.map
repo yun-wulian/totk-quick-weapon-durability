@@ -1,0 +1,4 @@
+{
+    global: exl_module_init;
+    local: *;
+};

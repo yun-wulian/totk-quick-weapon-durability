@@ -1,0 +1,14 @@
+/build/
+/dist/
+/backups/
+/inputs/
+/tools/python-libs/
+/.venv/
+__pycache__/
+*.pyc
+*.nso
+*.flat
+*.nsp
+*.xci
+*.nca
+*.keys
